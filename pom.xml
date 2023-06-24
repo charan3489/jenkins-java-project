@@ -47,5 +47,20 @@
 	    </pluginRepository>
 	</pluginRepositories>
 
+<build>
+    <pluginManagement>
+        <plugins>
+            <plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                    <artifactId>sonar-maven-plugin</artifactId>
+                    <version>3.8.0.2131</version>
+		<configuration>
+                    <sonar.host.url>http://13.233.37.70:9000/</sonar.host.url>
+                </configuration>
+
+            </plugin>
+        </plugins>
+    </pluginManagement>
+</build>
 	
 </project>
